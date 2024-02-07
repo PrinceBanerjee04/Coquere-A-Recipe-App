@@ -46,4 +46,6 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.28")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+
 }
