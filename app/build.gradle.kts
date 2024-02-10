@@ -7,6 +7,9 @@ plugins {
 android {
     namespace = "com.example.coquere"
     compileSdk = 34
+    buildFeatures {
+        viewBinding=true
+    }
 
     defaultConfig {
         applicationId = "com.example.coquere"
@@ -56,4 +59,6 @@ dependencies {
 
     // To use Kotlin annotation processing tool (kapt)
     kapt("androidx.room:room-compiler:$room_version")
+
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 }
