@@ -66,7 +66,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/Search"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginStart="24dp"
@@ -92,7 +92,7 @@
         android:layout_marginTop="10dp"
         android:padding="5dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editTextText"
+        app:layout_constraintTop_toTopOf="@+id/Search"
         app:srcCompat="@drawable/search_ic" />
 
     <TextView
@@ -105,7 +105,7 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/Search" />
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"

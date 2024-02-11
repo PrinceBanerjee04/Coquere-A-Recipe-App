@@ -1,5 +1,6 @@
 package com.example.coquere
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -18,6 +19,10 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setUpRecyclerView()
+
+        binding.Search.setOnClickListener{
+            startActivity(Intent(this,SearchActivity::class.java))
+        }
 
     }
 
